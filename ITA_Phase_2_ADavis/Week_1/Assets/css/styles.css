@@ -1,0 +1,48 @@
+@import "normalize.css";
+/* Header Navigation */
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+li {
+    font-weight: normal;
+    font-style: normal;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+  }
+
+  .navBar__number {
+    display: flex;
+    background: #F3323D;
+    border-radius: 91px;
+    height: 40px;
+    width: 160px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    line-height: 17px;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  a:visited {
+    color: black;
+  }
+
+  /* Background Image and Main Headline */
+  .family__pic{
+    height: auto;
+    width: 100%;
+  }
