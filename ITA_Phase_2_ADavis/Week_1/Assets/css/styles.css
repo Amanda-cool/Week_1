@@ -214,10 +214,8 @@ a {
 
 .sec_headline {
   display: flex;
-  float: left;
   width: 1050px;
-  height: 90px;
-  height: auto;
+  margin-top: 60px;
 }
 
 
@@ -226,12 +224,16 @@ a {
   align-items: center;
   justify-content: center;
   font-family: Montserrat;
+  color: white;
   font-size: 18px;
   line-height: 18px;
   background: linear-gradient(180deg, #F3323D 0.36%, #D62A33 100%);
   border-radius: 100px;
-  width: 327px;
+  width: 320px;
   height: 55px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 25px;
 }
 
 .cart_text {
@@ -241,14 +243,14 @@ a {
   line-height: 23px;
   color: #5A5A5A;
   text-align: left;
-  margin-left: 145px;
+  margin-left: 20px;
 }
 
 .cart_icon {
   display: block;
   width: 90px;
   height: 90px;
-  margin: 60px 30px 50px 25px;
+  margin: 30px 30px 50px 25px;
 }
 
 .cart_headline {
@@ -258,16 +260,104 @@ a {
   font-size: 30px;
   line-height: 30px;
   text-align: left;
-  margin-left: 145px;
+  margin-left: 20px;
 }
 
+/* Carousel Container */
+.carousel_container {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin-top: 100px;
+  justify-content: center;
+}
 
+.carousel_headline {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 57px;
+  margin-bottom: 15px;
+}
 
+.carousel_text {
+  font-family: Open Sans;
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0;
+}
 
+.car_text_con {
+  width: 430px;
+  margin-left: 30px;
+}
 
+.view_bundles {
+  background: linear-gradient(180deg, #F3323D 0.17%, #D62A33 100%);
+  border-radius: 91px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat;
+  color: white;
+  font-size: 18px;
+  font-size: 14px;
+  line-height: 30px;
+}
 
+.slider_status {
+  margin-top: 70px;
+}
 
+/* Ready to Order Number */
+.order_red {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  background: linear-gradient(180deg, #F3323D 0.17%, #D62A33 100%);
+  border-radius: 4px;
+  margin-top: 80px;
+}
+.ready_order {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 145px;
+  height: 60px;
+  text-align: center;
+}
+.ready_order_text {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 400px;
+  height: 50px;
+  text-align: left;
+  margin-left: 60px;
+}
 
+.tel_icon {
+width: 33px;
+height: 33px;
+margin-left: 50px;
+}
+
+.phone {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  color: #FFFFFF;
+  width: 250px;
+  height: 30px;
+  margin-left: 10px;
+}
 
 /* Bottom Additional Links */
 
@@ -277,6 +367,7 @@ a {
   font-family: Montserrat;
   text-align: center;
   width: 1050px;
+  margin-top: 60px;
 }
 .heading_b {
   font-weight: bolder;
@@ -296,6 +387,7 @@ a {
 
 /* Footer */
 footer {
+  margin-top: 50px;
   text-align: center;
   font-family: Arial;
   font-size: 14px;
