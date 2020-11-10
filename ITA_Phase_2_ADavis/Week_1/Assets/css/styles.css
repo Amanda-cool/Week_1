@@ -2,10 +2,14 @@
 
 .mainContainer {
   display: flex;
-  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  max-width: 1200px;
-  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* Header Navigation */
@@ -49,7 +53,7 @@ a {
 .headline {
   position: relative;
   background-image: url("../images/mom_daughter.png");
-  width: 100%;
+  width: 110%;
   height: 525px;
   background-repeat: no-repeat;
 }
@@ -82,6 +86,7 @@ a {
   align-items: center;
   height: 36px;
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .location__edit>p,
@@ -108,7 +113,8 @@ a {
   background: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.0843524);
   border-radius: 4px;
-  margin-top: 25px;
+  margin-top: -100px;
+  z-index: 1;
 }
 
 .plan_pricing {
@@ -270,6 +276,7 @@ a {
   justify-content: space-around;
   font-family: Montserrat;
   text-align: center;
+  width: 1050px;
 }
 .heading_b {
   font-weight: bolder;
@@ -284,6 +291,8 @@ a {
   line-height: 30px;
   color: #D62A33;
 }
+
+
 
 /* Footer */
 footer {
