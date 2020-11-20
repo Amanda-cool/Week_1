@@ -88,3 +88,47 @@ Title,
 BirthDate
 FROM Employees
 ORDER BY BirthDate DESC;
+
+-- Problem 11
+
+Select
+FirstName,
+LastName,
+Title,
+Date(BirthDate) as DateOnlyBirthDate
+From Employees
+Order By Birthdate;
+
+-- Problem 12
+
+Select
+FirstName,
+LastName,
+Concat(FirstName, ' ',LastName) as FullName 
+From Employees;
+
+-- Problem 13
+
+Select
+OrderID,
+ProductID,
+UnitPrice,
+Quantity, 
+UnitPrice * Quantity as TotalPrice
+From OrderDetails
+Order by
+OrderID,
+ProductID;
+
+-- Problem 14
+
+
+Select
+count(*) as TotalCustomers
+from Customers;
+
+-- Problem 15
+
+ Select
+ min(OrderDate) as FirstOrder
+ From Orders;

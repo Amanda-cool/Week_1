@@ -1,0 +1,156 @@
+@import "normalize.css";
+
+/*  Account Overview */
+.main {
+    background-color: #F9F9FB;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 130px;
+}
+.account_overview  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 65px;
+    padding-left: 110px;
+    padding-right: 105px;
+}
+
+.balance {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    background-color: #FFBE2B;
+    width: 260px;
+    height: auto;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+.campaign {
+    background-color: white;
+    width: 365px;
+    height: auto;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+}
+
+.agency {
+    background-color: white;
+    width: 380px;
+    height: auto;
+    filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+/* Sidebar */
+
+.account_side {
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    height: 100%;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.side_icon {
+    width: 22px;
+    height: 22px;
+    margin-bottom: 50px;
+}
+
+.side_photo {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 17px;
+    margin-top: 40px;
+}
+
+.den {
+    margin-bottom: 7px;
+}
+
+.new_york {
+    margin-bottom: 80px;
+}
+/* Available Campaigns Title */
+
+.available_campaigns {
+    margin-top: 56px;
+    display: flex;
+    align-items: center;
+    border: red 1px solid;
+    position: relative;
+}
+
+
+
+.tile_icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: green 1px solid;
+    float: right;
+    right: 0;
+}
+
+
+/* Dashboard Content */
+
+.dashboard_content {
+    display: flex;
+    flex-direction: column;
+    width: 1150px;
+    height: auto;
+    margin-left: 110px;
+    padding-right: 105px;
+}
+
+.title_bar {
+    width: 950px;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 12px;
+}
+
+.line_text {
+    width: 30px;
+}
+
+.line_text_part {
+    margin-right: 110px;
+}
+.line_text_geo {
+    margin-left: 20px;
+}
+
+.nav_arrows {
+    width: 8px;
+    height: 13px;
+    margin-left: 10px;
+    align-items: center;
+}
+.sm_icons {
+    width: 40px;
+    height: 40px;
+}
+
+
+
